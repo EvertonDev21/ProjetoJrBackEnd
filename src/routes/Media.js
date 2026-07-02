@@ -1,4 +1,6 @@
 function MediasRoutes(server){
+
+    
     server.get("/media", (req, res)=>{
         server.mysql.query("SELECT * FROM docker_db.media",
         function onResult(error, results) {
@@ -6,6 +8,7 @@ function MediasRoutes(server){
         }
     )
     })
+    
 
     server.post("/media", (req, res)=> {
         server.mysql.query(
