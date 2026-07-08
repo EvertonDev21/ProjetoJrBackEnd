@@ -9,8 +9,6 @@ server.register(require("@fastify/mysql"), {
 
 server.register(mediaRouter, userRouter);
 
-
-
 server.listen({port: 3306}, function (error, address) {
     if(error) {
         console.log(error)

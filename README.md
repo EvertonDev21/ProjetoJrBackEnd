@@ -68,3 +68,8 @@ GET Lista todos os filmes ou series que o user escolheu
 http://localhost:3000/users/?/favoritos <-- Ponto de interrogação é o ID do user especifico
 
 
+VIDEOS RELACIONADOS COM O CODIGO;
+
+https://www.youtube.com/watch?v=sTZ6tTkFjR8&list=PLnex8IkmReXwCyR-cGkyy8tCVAW7fGZow&index=10
+
+https://www.youtube.com/watch?v=GVF--Rl3bP4
