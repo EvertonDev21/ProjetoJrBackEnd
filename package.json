@@ -5,7 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "@fastify/mysql": "^5.0.2",
-    "fastify": "^5.8.5"
+    "fastify": "^5.12.5"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
